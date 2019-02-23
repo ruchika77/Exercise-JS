@@ -1,10 +1,10 @@
-function area(a) {
-    let areaCircle = 3.14*a*a
+function area(radius) {
+    let areaCircle = 3.14 * radius * radius
     return Math.round(areaCircle);
 }
 
-function circumference(a) {
-    let circumferenceCircle = 2*3.14*a
+function circumference(radius) {
+    let circumferenceCircle = 2 * 3.14 * radius
     return Math.round(circumferenceCircle);
 }
 

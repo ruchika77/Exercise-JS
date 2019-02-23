@@ -1,10 +1,10 @@
-function area(a) {
-    let areaSquare = a * a
+function area(radius) {
+    let areaSquare = radius * radius
     return areaSquare;
 }
 
-function perimeter(a) {
-    let perimeterSquare = 4 * a
+function perimeter(radius) {
+    let perimeterSquare = 4 * radius
     return perimeterSquare;
 }
 

@@ -1,10 +1,10 @@
-function add(a, b) {
-    let sum = a + b
+function add(num1, num2) {
+    let sum = num1 + num2
     return sum;
 }
 
-function subtract(a, b) {
-    let sub = a - b
+function subtract(num1, num2) {
+    let sub = num1 - num2
     return sub;
 }
 

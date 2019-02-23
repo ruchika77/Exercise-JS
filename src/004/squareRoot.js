@@ -1,5 +1,5 @@
-function squareRoot(a) {
-    let sqrRoot = Math.sqrt(a)
+function squareRoot(num) {
+    let sqrRoot = Math.sqrt(num)
     return Math.round(sqrRoot);
 }
 module.exports = {

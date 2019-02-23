@@ -1,10 +1,10 @@
-function square(a) {
-    let sqr = Math.round(a * a)
+function square(num) {
+    let sqr = Math.round(num * num)
     return sqr;
 }
 
-function cube(a) {
-    let cub = Math.round(a * a * a)
+function cube(num) {
+    let cub = Math.round(num * num * num)
     return cub;
 }
 

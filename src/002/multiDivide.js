@@ -1,10 +1,10 @@
-function multiply(a, b) {
-    let multiResult = Math.round(a * b)
+function multiply(num1, num2) {
+    let multiResult = Math.round(num1 * num2)
     return multiResult;
 }
 
-function divide(a, b) {
-    let divResult = Math.round(a / b)
+function divide(num1, num2) {
+    let divResult = Math.round(num1 / num2)
     return divResult;
 }
 
