@@ -4,11 +4,13 @@
   "description": "",
   "main": "",
   "dependencies": {
+  },
+  "devDependencies": {
+    "jasmine-console-reporter": "^3.1.0",
     "jasmine": "^3.3.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "node node_modules/jasmine/bin/jasmine"
+    "test": "node node_modules/jasmine/bin/jasmine --reporter=jasmine-console-reporter"
   },
   "author": "",
   "license": "ISC"
