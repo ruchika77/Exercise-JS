@@ -3,11 +3,10 @@
   "version": "3.3.1",
   "description": "",
   "main": "",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
-    "jasmine-console-reporter": "^3.1.0",
-    "jasmine": "^3.3.1"
+    "jasmine": "^3.3.1",
+    "jasmine-console-reporter": "^3.1.0"
   },
   "scripts": {
     "test": "node node_modules/jasmine/bin/jasmine --reporter=jasmine-console-reporter"
