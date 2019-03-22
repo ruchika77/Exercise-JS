@@ -1,5 +1,6 @@
 // import functions
-const { add, subtract } = require('./addSub');
+const { add, subtract } = require('./001-addSub');
+
 describe('arithmetic/001', () => {
     describe('addition', () => {
         it('should be defined', () => {

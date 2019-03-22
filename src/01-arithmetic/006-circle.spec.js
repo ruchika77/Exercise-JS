@@ -1,5 +1,5 @@
 // import functions
-const { area, circumference } = require('./circle');
+const { area, circumference } = require('./006-circle');
 describe('arithmetic/006', () => {
     describe('area', () => {
         it('should be defined', () => {

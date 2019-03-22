@@ -1,5 +1,5 @@
 // import functions
-const { area, perimeter } = require('./square');
+const { area, perimeter } = require('./005-square');
 describe('arithmetic/005', () => {
     describe('area', () => {
         it('should be defined', () => {

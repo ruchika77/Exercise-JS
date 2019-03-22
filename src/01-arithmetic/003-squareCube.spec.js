@@ -1,5 +1,5 @@
 // import functions
-const { square, cube } = require('./squareCube');
+const { square, cube } = require('./003-squareCube');
 describe('arithmetic/003', () => {
     describe('square', () => {
         it('should be defined', () => {

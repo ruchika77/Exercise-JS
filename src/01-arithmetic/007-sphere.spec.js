@@ -1,5 +1,5 @@
 // import functions
-const { area, volume } = require('./sphere');
+const { area, volume } = require('./007-sphere');
 describe('arithmetic/007', () => {
     describe('area', () => {
         it('should be defined', () => {

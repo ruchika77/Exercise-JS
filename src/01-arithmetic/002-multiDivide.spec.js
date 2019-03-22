@@ -1,5 +1,5 @@
 // import functions
-const { multiply, divide } = require('./multiDivide');
+const { multiply, divide } = require('./002-multiDivide');
 describe('arithmetic/002', () => {
     describe('multiplication', () => {
         it('should be defined', () => {

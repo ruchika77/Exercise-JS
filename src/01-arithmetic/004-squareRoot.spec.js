@@ -1,5 +1,5 @@
 // import functions
-const { squareRoot } = require('./squareRoot');
+const { squareRoot } = require('./004-squareRoot');
 describe('arithmetic/004', () => {
     describe('squareroot', () => {
         it('should be defined', () => {
