@@ -1,5 +1,5 @@
 // import functions
-const { posNeg, POS, NEG } = require('./number');
+const { posNeg, POS, NEG } = require('./016-number');
 
 describe('Conditional/016', () => {
     describe('Find numberr is positive or negative', () => {

@@ -1,5 +1,5 @@
 // import functions
-const { simple, compound } = require('./interest');
+const { simple, compound } = require('./010-interest');
 describe('arithmetic/010', () => {
     describe('simple', () => {
         it('should be defined', () => {

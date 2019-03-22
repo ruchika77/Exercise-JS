@@ -1,5 +1,5 @@
 // import functions
-const { swap } = require('./swap');
+const { swap } = require('./014-swap');
 describe('arithmetic/013', () => {
     describe('Swap two numbers', () => {
         it('should be defined', () => {

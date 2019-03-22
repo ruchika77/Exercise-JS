@@ -1,5 +1,5 @@
 // import functions
-const { calculateTime } = require('./time');
+const { calculateTime } = require('./012-time');
 describe('arithmetic/012', () => {
     describe('Convert seconds to hour,minute and seconds', () => {
         it('should be defined', () => {

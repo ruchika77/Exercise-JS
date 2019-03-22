@@ -1,5 +1,5 @@
 // import functions
-const { mechanicEnergy } = require('./energy');
+const { mechanicEnergy } = require('./011-energy');
 describe('arithmetic/011', () => {
     describe('Mechanic Energy', () => {
         it('should be defined', () => {

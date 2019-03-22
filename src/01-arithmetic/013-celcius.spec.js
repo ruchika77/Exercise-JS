@@ -1,5 +1,5 @@
 // import functions
-const { convertTemperature } = require('./celcius');
+const { convertTemperature } = require('./013-celcius');
 describe('arithmetic/013', () => {
     describe('Convert fahrenheit to celcius', () => {
         it('should be defined', () => {

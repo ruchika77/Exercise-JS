@@ -1,5 +1,5 @@
 // import functions
-const { days } = require('./age');
+const { days } = require('./009-age');
 describe('arithmetic/009', () => {
     describe('age', () => {
         it('should be defined', () => {

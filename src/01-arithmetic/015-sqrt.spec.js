@@ -1,5 +1,5 @@
 // import functions
-const { squareRoot } = require('./sqrt');
+const { squareRoot } = require('./015-sqrt');
 describe('arithmetic/015', () => {
     describe('Distance between 2 numbers', () => {
         it('should be defined', () => {
