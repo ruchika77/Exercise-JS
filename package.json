@@ -6,10 +6,25 @@
   "dependencies": {},
   "devDependencies": {
     "jasmine": "^3.3.1",
-    "jasmine-console-reporter": "^3.1.0"
+    "jasmine-console-reporter": "^3.1.0",
+    "nyc": "^13.3.0"
+  },
+  "nyc": {
+    "all": true,
+    "include": [
+      "src/**/*.js"
+    ],
+    "exclude": [
+      "**/*.spec.js"
+    ],
+    "report-dir": "./_reports",
+    "reporter": [
+      "lcov",
+      "text-summary"
+    ]
   },
   "scripts": {
-    "test": "node node_modules/jasmine/bin/jasmine --reporter=jasmine-console-reporter"
+    "test": "node node_modules/jasmine/bin/jasmine --reporter=jasmine-console-reporter && nyc jasmine"
   },
   "author": "",
   "license": "ISC"
