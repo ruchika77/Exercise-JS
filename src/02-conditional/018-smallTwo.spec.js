@@ -7,7 +7,7 @@ describe('Conditional/018', () => {
         });
         it('should return small number', () => {
             expect(smallOfTwo(13,5)).toBe(5);
-            expect(smallOfTwo(1500,-1000)).toBe(-1000);
+            expect(smallOfTwo(-1500,1000)).toBe(-1500);
         });
     });
 });
