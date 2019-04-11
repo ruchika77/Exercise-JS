@@ -1,13 +1,9 @@
 // import functions
-const { typeOfTriangle, sum, right, acute, obtuse, NAT, RAT, AAT, OAT } = require('./023-triangleWithAngles.js');
+const { typeOfTriangle, NAT, RAT, AAT, OAT } = require('./023-triangleWithAngles.js');
 describe('Conditional/023', () => {
     describe('Find the type of triangle by its angles', () => {
         it('should be defined', () => {
             expect(typeOfTriangle).toBeDefined();
-            expect(sum).toBeDefined();
-            expect(right).toBeDefined();
-            expect(acute).toBeDefined();
-            expect(obtuse).toBeDefined();
         });
         it(`should return : ${NAT}`, () => {
             expect(typeOfTriangle(2, 2, 2)).toBe(NAT);
